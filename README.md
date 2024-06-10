@@ -7,7 +7,7 @@ Helper script to auto approve bookings in [UnSpot](https://unspot.ru).
 3) Set environment variables:
    - `UNSPOT_ENDPOINT` - Endpoint for API,
    - `UNSPOT_SECRET` - Bearer secret for auth [help-center/faq/api/](https://unspot.ru/help-center/faq/api/)
-4) Run script in background `nohup python3 unspot_demon.py &` and `ps ax | grep unspot_demon.py`
+4) Run script in background `nohup python3 unspot_demon.py &` and `ps ax | grep unspot_demon.py` to watch it in background.
 
 ## Requirements
 
