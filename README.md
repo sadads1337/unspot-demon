@@ -9,6 +9,11 @@ Helper script to auto approve bookings in [UnSpot](https://unspot.ru).
    - `UNSPOT_SECRET` - Bearer secret for auth [help-center/faq/api/](https://unspot.ru/help-center/faq/api/)
 4) Run script in background `nohup python3 unspot_demon.py &` and `ps ax | grep unspot_demon.py` to watch it in background.
 
+Example run
+```bash
+export UNSPOT_ENDPOINT="https://my.unspot.ru"; export UNSPOT_SECRET="abcdef12345ADBCDEF"; python3 unspot_demon.py 
+```
+
 ## Requirements
 
 Python 3.8+
